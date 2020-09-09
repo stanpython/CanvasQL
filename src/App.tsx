@@ -33,7 +33,9 @@ const App: React.FC = () => {
       <div className="page-content-wrapper">
         <TopNav showModal={showModal} />
         <LinkContainer />
-        <SplitPane split="vertical" minSize={50}>
+        <flex-item style="flex: 1; background: blue">
+            <flex class="h">
+                <flex-item style="flex: 1">Flex 2</flex-item>
           <div className="graph-div">
             <VisGraph />
           </div>
